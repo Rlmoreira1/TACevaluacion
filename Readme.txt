@@ -6,15 +6,7 @@ Versión: 1.0
 Descripción:
 Esta aplicación permite la evaluación automática de trabajos enviados por estudiantes en formato PDF. La aplicación extrae imágenes de los trabajos, permite seleccionar observaciones para cada estudiante, y genera un informe en PDF con calificación, observaciones y un logo personalizado.
 
-Requisitos del Sistema
-Sistema Operativo: Windows 10 o superior (para otras plataformas, consulta al desarrollador).
-Instalación
-Descargar el Archivo Ejecutable:
 
-Descarga el archivo ejecutable EvaluacionEstudiantes.exe desde la ubicación proporcionada.
-Ejecución de la Aplicación:
-
-Haz doble clic en EvaluacionEstudiantes.exe para iniciar la aplicación. La aplicación se abrirá en tu navegador predeterminado en la URL http://localhost:8501.
 Uso de la Aplicación
 Seleccionar la Carpeta de PDFs:
 

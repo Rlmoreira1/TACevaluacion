@@ -6,6 +6,6 @@ services:
     env: python
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.5  # O la versión que necesites
+        value: 3.11.0  # O la versión que necesites
       - key: my_env
         value: 27bed0121b936f977122d02fa7a45c7d

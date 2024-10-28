@@ -9,10 +9,7 @@ import textwrap
 import os
 import streamlit as st
 
-# Configura el puerto en el que escucha la aplicación.
-port = int(os.environ.get("PORT", 10000))
-st._config.set_option("server.port", port)
-
+web: streamlit run app.py --server.port $PORT
 # Función para cargar observaciones desde Excel
 def cargar_observaciones(ruta_archivo):
     df = pd.read_excel(ruta_archivo, engine='openpyxl')

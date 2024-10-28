@@ -6,6 +6,12 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import cm
 import textwrap
+import os
+import streamlit as st
+
+# Configura el puerto en el que escucha la aplicación.
+port = int(os.environ.get("PORT", 10000))
+st._config.set_option("server.port", port)
 
 # Función para cargar observaciones desde Excel
 def cargar_observaciones(ruta_archivo):

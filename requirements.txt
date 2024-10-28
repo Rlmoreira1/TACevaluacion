@@ -63,8 +63,8 @@ streamlit==1.39.0
 sympy==1.13.2
 tenacity==9.0.0
 toml==0.10.2
-torch==
-torchvision==
+torch
+torchvision
 tornado==6.4.1
 tqdm==4.66.5
 typing_extensions==4.12.2
